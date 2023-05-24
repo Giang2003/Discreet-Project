@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.body{
+  font-family: Sora;
+  color: #FFFFFF;
+}
+
+.background {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.logo {
+  position: absolute;
+  width: 79px;
+  height: 79px;
+  left: 49px;
+  top: 55px;
+}
+
+.title {
+  /* Crystal Simulator */
+
+
+  position: absolute;
+  width: 366px;
+  height: 46px;
+  left: 141px;
+  top: 45px;
+
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.decor-1 {
+  position: relative;
+  left: 1652px;
+  top: 853px;
+
+}
+
