@@ -1,0 +1,53 @@
+body{
+    padding-top: 60px;
+}
+
+.about-us {
+    position: absolute;
+    width: 114px;
+    height: 32px;
+    left: 1000px;
+    top: 60px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.how-its-work{
+    position: absolute;
+    width: 169px;
+    height: 32px;
+    left: 1333px;
+    top: 60px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.simulate {
+    position: absolute;
+    width: 114px;
+    height: 32px;
+    left: 1719px;
+    top: 60px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
