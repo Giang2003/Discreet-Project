@@ -1,11 +1,13 @@
 import React from "react";
 import './Simulate.css';
-import InputBackground from '/Users/phamdoanphuonganh/Desktop/Crystal Simulator/crystal/src/assets/InputField.png';
+import InputBackground from '../assets/InputField.png';
 import {useState} from 'react';
-import Decor4 from '/Users/phamdoanphuonganh/Desktop/Crystal Simulator/crystal/src/assets/Decor4.png';
-import Decor3 from '/Users/phamdoanphuonganh/Desktop/Crystal Simulator/crystal/src/assets/Decor3.png';
-import Decor2 from '/Users/phamdoanphuonganh/Desktop/Crystal Simulator/crystal/src/assets/Decor2.png';
-import crystal from '/Users/phamdoanphuonganh/Desktop/Crystal Simulator/crystal/src/assets/Crystal.png';
+import Decor4 from '../assets/Decor4.png';
+import Decor3 from '../assets/Decor3.png';
+import Decor2 from '../assets/Decor2.png';
+// import crystal from '/Users/phamdoanphuonganh/Desktop/Crystal Simulator/crystal/src/assets/Crystal.png';
+
+import ClickOne from "./ClickOne";
 
 const Simulate = () => {
     const [value, setValue] = useState('');
@@ -28,12 +30,14 @@ const Simulate = () => {
             </div>
         <div className="input-content">
             <h1>
-                Choose your weapon!
+                Adventure Time~
             </h1>
-            <div className="description">
+            {/* <div className="description">
                 <h2>The number of</h2>
                 <h3>molecules of</h3>
                 <h4>your crystal</h4>
+                <h5>valid-input: </h5>
+                <h5>10 - 20 - 30 - 40 - 50</h5>
             </div>
                 <form className="input-box">
                     <input type="text"
@@ -45,7 +49,7 @@ const Simulate = () => {
                 </form>
             <div className="mol">
                 <h5>mol</h5>
-            </div>
+            </div> */}
             <div className="chemical">
                 <h1>Chemical Compound</h1>
                 <h2>CuSO4.5H2O</h2>
@@ -57,17 +61,18 @@ const Simulate = () => {
             <img src={Decor2} alt="#" />
         </div>
         </div>
-            <div className="crystal-simu">
-                <img src={crystal} alt="#" />
-                <h1 className="note">Crystal Copper Sulphate Pentahydrate</h1>
-            </div>
         <div id="container">
-        <button className="learn-more">
-            <span className="circle" aria-hidden="true">
+            <ClickOne />
+        {/* /* <button className="learn-more"> */}
+            {/* <div className="crystal-simu">
+                <Crystal />
+                <h1 className="note">Crystal Copper Sulphate Pentahydrate</h1>
+            </div> */}
+            {/* <span className="circle" aria-hidden="true">
             <span className="icon arrow"></span>
             </span>
-            <span className="button-text">Simulate</span>
-        </button>
+            <span className="button-text">Deploy 20 mol</span>
+        </button> */}
         </div>
     </div>
     )

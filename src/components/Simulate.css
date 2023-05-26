@@ -10,7 +10,7 @@
     position: absolute;
     align-items: center;
     top: 10px;
-    left: 64px;
+    left: 80px;
     
     font-family: 'Sora';
     font-style: normal;
@@ -21,8 +21,15 @@
     color: #FFFFFF;
 }
 
+.input-content > h1 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    
+}
+
 .chemical {
-    padding-top: 80px;
+    padding-top: 60px;
     padding-left: 60px;
 
     font-size: 20px;
@@ -76,6 +83,15 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
+}
+
+.description > h5 {
+  margin: 3px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200px;
+
+  color:rgba(255, 255, 255, 0.6);
 }
 
 .input-box{
@@ -146,7 +162,12 @@
     position: absolute;
     scale: 170%;
     left: 150px;
-    top: 470px;  
+    top: 400px;  
+}
+
+.chemical h1{
+  position: relative;
+  left: -20px;
 }
 
 .chemical h2 {
@@ -154,7 +175,7 @@
     font-size: 32px;
     position: absolute;
     left: 250px;
-    top: 460px;
+    top: 380px;
 }
 
 .decor-3 {
@@ -186,213 +207,3 @@
     border: 1px solid #FFFFFF;
     border-radius: 30px;
 }
-
-.crystal-simu {
-    position: absolute;
-    width: 987px;
-    height: 987px;
-    left: 800px;
-    top: -100px;
-}
-
-.note {
-    position: absolute;
-    width: 800px;
-    height: 41px;
-    left: 170px;
-    top: 850px;
-    
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    /* identical to box height */
-    
-    color: #FFFFFF;
-}
-
-
-/* CSS
-.button-45 {
-    position: inherit;
-    width: 245px;
-    height: 51px;
-    left: 230px;
-    top: 670px;
-
-    align-items: center;
-    background: linear-gradient(105.87deg, rgba(255, 255, 255, 0.4) 3.04%, rgba(255, 255, 255, 0) 99.23%);
-    backdrop-filter: blur(40px);
-    background-position: 0 0;
-    border: 1px solid #FFFFFF;
-    border-radius: 30px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: flex;
-    font-size: 2rem;
-    align-items: center;
-    font-style: 'Sora';
-    font-weight: 600;
-    line-height: 30.4929px;
-    list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
-    padding: 2px 50px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    text-underline-offset: 1px;
-    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    word-break: break-word;
-}
-
-.button-45:active,
-.button-45:hover,
-.button-45:focus {
-  outline: 0;
-}
-
-
-.button-45:active {
-  background-color: #FFFFFF;
-  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-  color: #FFFFFF;
-}
-
-.button-45:hover {
-  background-color: none;
-}
-
-.button-45:active:hover,
-.button-45:focus:hover,
-.button-45:focus {
-  background-color: #fff;
-  color: #FFFFFF;
-}
- */
-
-
-* {
-    box-sizing: border-box;
-  }
-  *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* body {
-    scale: 2--;
-    font-family: 'Sora';
-    font-size: 1rem;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-    background: #f3f8fa;
-  } */
-  
-  button {
-    scale: 150%;
-    position: relative;
-    width: 245px;
-    height: 51px;
-    left: 250px;
-    top: -160px;
-
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-    font-family: inherit;
-  }
-  button.learn-more {
-    width: 12rem;
-    height: auto;
-  }
-  button.learn-more .circle {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: relative;
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
-    background: #fff;
-    border-radius: 1.625rem;
-  }
-  button.learn-more .circle .icon {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-  }
-  button.learn-more .circle .icon.arrow {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.625rem;
-    width: 1.125rem;
-    height: 0.125rem;
-    background: none;
-  }
-  button.learn-more .circle .icon.arrow::before {
-    position: absolute;
-    content: "";
-    top: -0.25rem;
-    right: 0.0625rem;
-    width: 0.625rem;
-    height: 0.625rem;
-    border-top: 0.125rem solid #171080;
-    border-right: 0.125rem solid #171080;
-    transform: rotate(45deg);
-  }
-  button.learn-more .button-text {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0.75rem 0;
-    margin: 0 0 0 1.85rem;
-    color: #fff;
-    font-weight: 700;
-    font-family: 'Sora';
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  button:hover .circle {
-    width: 100%;
-  }
-  button:hover .circle .icon.arrow {
-    background: #171080;
-    transform: translate(1rem, 0);
-  }
-  button:hover .button-text {
-    color: #171080;
-  }
-  
-  @supports (display: grid) {
-    body {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 0.625rem;
-      grid-template-areas: ". main main ." ". main main .";
-    }
-  
-    #container {
-      grid-area: main;
-      align-self: center;
-      justify-self: center;
-    }
-  }
