@@ -6,8 +6,7 @@ const AboutUs = () => {
     return(
     <div>
       <Card />
-      <p>Test Github cho Giang</p> 
-      <h1>Phanh chages shits here</h1>
+
     </div>
     )
 }
