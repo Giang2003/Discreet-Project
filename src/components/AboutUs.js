@@ -4,7 +4,10 @@ import Card from './Card'
 
 const AboutUs = () => {
     return(
+    <div>
       <Card />
+      <p>Test Github cho Giang</p> 
+    </div>
     )
 }
 
